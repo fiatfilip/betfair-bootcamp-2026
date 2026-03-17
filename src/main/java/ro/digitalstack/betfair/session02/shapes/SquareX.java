@@ -17,4 +17,8 @@ public class SquareX implements Shape{
     public double getArea() {
         return rectangle.getArea();
     }
+
+    public String getArea(String prefix){
+        return prefix + getArea();
+    }
 }

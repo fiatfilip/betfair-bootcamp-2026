@@ -16,6 +16,10 @@ public class Main {
         System.out.println(square.getEdge());
         SquareX square2 = new SquareX(5);
         square2.getArea();
+        System.out.println(square2.getArea("The area is: "));
+        AbstractShape as = new AbstractShape(5);
+        shapes.add(as);
+
 
         for(Shape shape : shapes){
             shape.info();
