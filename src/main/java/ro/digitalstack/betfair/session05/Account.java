@@ -1,4 +1,4 @@
-package ro.digitalstack.betfair.session5;
+package ro.digitalstack.betfair.session05;
 
 import java.util.UUID;
 
