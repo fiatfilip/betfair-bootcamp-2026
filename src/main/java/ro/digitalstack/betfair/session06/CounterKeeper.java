@@ -40,7 +40,7 @@ public class CounterKeeper {
 
         }
 
-        for(int i = 0; i < incrementors.length; i++){
+         for(int i = 0; i < incrementors.length; i++){
             incrementors[i].join();
         }
         System.out.println(counterKeeper.getCounter());

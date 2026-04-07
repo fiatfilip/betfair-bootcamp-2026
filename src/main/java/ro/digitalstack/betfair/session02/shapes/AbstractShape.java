@@ -1,7 +1,8 @@
 package ro.digitalstack.betfair.session02.shapes;
 
 public class AbstractShape extends Circle{
-    public AbstractShape(double radius) {
+
+    public AbstractShape(double radius){
         super(radius);
     }
 
@@ -9,5 +10,4 @@ public class AbstractShape extends Circle{
     public double getArea(){
         return 20;
     }
-
 }

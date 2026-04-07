@@ -21,4 +21,9 @@ public class SquareX implements Shape{
     public String getArea(String prefix){
         return prefix + getArea();
     }
+
+//    public String getArea(String prefix)
+//    {
+//        return prefix + getArea();
+//    }
 }
