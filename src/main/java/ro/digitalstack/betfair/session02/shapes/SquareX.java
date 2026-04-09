@@ -1,6 +1,8 @@
 package ro.digitalstack.betfair.session02.shapes;
 
-public class SquareX implements Shape{
+import java.awt.*;
+
+public class SquareX implements Shape {
     private double edge;
     private Rectangle rectangle;
 
@@ -21,6 +23,10 @@ public class SquareX implements Shape{
     public String getArea(String prefix){
         return prefix + getArea();
     }
+
+    //public String getArea(String prefix) {
+      //  return prefix + getArea();
+    //}
 
 //    public String getArea(String prefix)
 //    {

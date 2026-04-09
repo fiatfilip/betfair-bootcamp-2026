@@ -1,6 +1,8 @@
 package ro.digitalstack.betfair.session02.shapes;
 
-public class Rectangle implements Shape{
+import java.awt.*;
+
+public class Rectangle implements Shape {
     private double height, length;
 
     public Rectangle(double height, double length) {

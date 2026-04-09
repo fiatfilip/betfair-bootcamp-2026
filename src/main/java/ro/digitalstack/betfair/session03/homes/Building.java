@@ -24,8 +24,7 @@ public class Building {
     }
 
     public void listRooms(){
-        for (Room room : rooms
-             ) {
+        for (Room room : rooms) {
             System.out.println(room.getRoomType());
         }
     }

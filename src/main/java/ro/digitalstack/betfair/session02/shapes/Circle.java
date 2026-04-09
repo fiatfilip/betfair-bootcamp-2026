@@ -1,6 +1,8 @@
 package ro.digitalstack.betfair.session02.shapes;
 
-public class Circle implements Shape{
+import java.awt.*;
+
+public class Circle implements Shape {
     private double radius;
 
     public Circle(double radius) {
