@@ -1,7 +1,7 @@
 package ro.digitalstack.betfair.session08.creational;
 
 public class Factory {
-    static enum AnimalType {
+    enum AnimalType {
         FISH,
         DOG,
         HORSE
